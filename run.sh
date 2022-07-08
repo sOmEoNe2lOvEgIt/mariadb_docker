@@ -1,0 +1,1 @@
+docker run --detach --network slurm-network --name slurm-mariadb --env MARIADB_USER=slurm-user --env MARIADB_PASSWORD=slurm --env MARIADB_ROOT_PASSWORD=suslurm mariadb
